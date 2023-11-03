@@ -1,4 +1,4 @@
-// Verifying an Alien Dictionary
+// 953. Verifying an Alien Dictionary
 
 /**
  * @param {string[]} words
