@@ -22,6 +22,7 @@ nums.forEach((num) =>{
 })
 
 for (let num in freqMap) {
+    debugger;
     let freq = freqMap[num]
     bucket[freq].push(Number(num))
 }
@@ -37,7 +38,6 @@ for (let i=bucket.length -1; i>0; i--) {
 
 };
 
-
 // TC: O(n)
 // SC: O(n)
 
@@ -50,3 +50,11 @@ for (let i=bucket.length -1; i>0; i--) {
 // The inner loop iterates through the elements in the current bucket (bucket[i]).
 // The number of iterations in the inner loop is proportional to the number of elements in that specific bucket,
 // not the total number of elements in the entire array.
+
+
+// ex. topKFrequent([1,1,1,2,2,3],2)
+// bucket = [[], [], [], [], [], [], []] --> why nested? because there could be multiple numbers with the same frequency
+// each index in the bucket represent the number of times a number appear: i is count
+// [[], [3], [2], [1], [], [], []] -> 3 just 1 time, 2 two times and 1 3 times are repeated in the original array
+// why I start from the end of the bucket: for (let i=bucket.length -1; i>0; i--)
+// because I need to return the most frequent numbers. and indexes of buckets are in fact the counts!!!
