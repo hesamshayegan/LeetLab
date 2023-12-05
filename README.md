@@ -1,7 +1,7 @@
 # LeetLab: LeetCode Problem Solutions
 
 ## Overview
-Welcome to LeetLap, my personal repository featuring solutions to over 50 LeetCode problems. This collection primarily focuses on string and array-related challenges, utilizing various algorithms such as two pointers, sliding window, dynamic programming, and more. The repository serves as a testament to my commitment to honing problem-solving skills and mastering diverse algorithms. </br>
+Welcome to LeetLab, my personal repository featuring solutions to over 50 LeetCode problems. This collection primarily focuses on string and array-related challenges, utilizing various algorithms such as two pointers, sliding window, dynamic programming, and more. The repository serves as a testament to my commitment to honing problem-solving skills and mastering diverse algorithms. </br>
 
 Feel free to reach out if you come up with a better solution in terms of time or space complexity!
 
