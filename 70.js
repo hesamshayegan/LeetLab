@@ -12,6 +12,7 @@ var climbStairs = function(n) {
     let temp;
 
     for (let i = 0; i < n; i++) {
+        debugger;
         temp = prev;
         prev = curr;
         curr += temp;
