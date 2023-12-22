@@ -65,3 +65,13 @@ Feel free to reach out if you come up with a better solution in terms of time or
 | Meta | 54 | Leetcode 14  | Longest Common Prefix | string  | Easy | JS | TC: O(n \* m)<br>SC: O(1)    |
 | Meta | 55 | Leetcode 414 | Third Maximum Number  | numbers | Easy | JS | TC: O(n\*log(n))<br>SC: O(1) |
 | \-   | 56 | Leetcode 69  | Sqrt(x)               | numbers | Easy | JS | TC: O(logn)<br>SC: O(1)      |
+| \- | 57 | Leetcode 66  | Plus One                  | numbers | Easy | JS | TC: O(n)<br>SC: O(1)                       |
+| \- | 58 | Leetcode 190 | Reverse Bits              | numbers | Easy | JS | TC: O(1)<br>SC: O(1)                       |
+| \- | 59 | Leetcode 169 | Majority Element          | numbers | Easy | JS | TC: O(n)<br>SC: O(1)                       |
+| \- | 60 | Leetcode 58  | Length of Last Word<br>   | string  | Easy | JS | TC: O(n)<br>SC: O(1)                       |
+| \- | 61 | Leetcode 392 | Is Subsequence            | string  | Easy | JS | TC: O(max(s.length, t.length))<br>SC: O(1) |
+| \- | 62 | Leetcode 290 | Word Pattern              | string  | Easy | JS | TC: O(n)<br>SC: O(n)                       |
+| \- | 63 | Leetcode     | Unique Morse Code Words   | string  | Easy | JS | TC: O(n^2)<br>SC: O(n)                     |
+| \- | 64 | Leetcode 202 | Happy Number              | nums    | Easy | JS | TC: O(n)<br>SC: O(n)                       |
+| \- | 65 | Leetcode 219 | Contains Duplicate II<br> | nums    | Easy | JS | TC: O(n)<br>SC: O(n)                       |
+| \- | 66 | Leetocde 228 | Summary Ranges            | nums    | Easy | JS | TC: O(n)<br>SC: O(n)                       |
