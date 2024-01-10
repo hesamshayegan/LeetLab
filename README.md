@@ -75,4 +75,8 @@ Feel free to reach out if you come up with a better solution in terms of time or
 | \-        | 64 | Leetcode 202  | Happy Number                                                                                                             | array                 | Easy   | JS       | TC: O(n)<br>SC: O(n)                                                                                                       |
 | \-        | 65 | Leetcode 219  | Contains Duplicate II<br>                                                                                                | array                 | Easy   | JS       | TC: O(n)<br>SC: O(n)                                                                                                       |
 | \-        | 66 | Leetocde 228  | Summary Ranges                                                                                                           | array                 | Easy   | JS       | TC: O(n)<br>SC: O(n)                                                                                                       |
-| \-        | 67 | Leetcode 80   | Remove Duplicates from Sorted Array II         | array                 | Medium   | JS       | TC: O(n)<br>SC: O(1)              
+| \-        | 67 | Leetcode 80   | Remove Duplicates from Sorted Array II         | array                 | Medium   | JS       | TC: O(n)<br>SC: O(1)
+|-  |68 |Leetcode 151 |Reverse Words in a String   |string|Medium|JS |TC: O(n) SC: O(max(n,m)|
+|-  |69 |Leetcode 189 | Rotate Array               |array |Medium|JS |TC: O(n) SC: O(1)      |
+|-  |70 |Leetcode 55  |Jump Game                   |array |Medium|JS |TC: O(n) SC: O(1)      |
+|-  |71 |Leetcdode 128|Longest Consecutive Sequence|array |Medium|JS |TC: O(n) SC: O(n)      |
