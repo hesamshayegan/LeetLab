@@ -1,4 +1,4 @@
-// 121. Best Time to Buy and Sell Stock
+// 122. Best Time to Buy and Sell Stock II
 
 
 /**
@@ -6,7 +6,6 @@
  * @return {number}
  */
 var maxProfit = function(prices) {
-    
     if (!prices || prices.length <= 1) {
         return 0;
     }
@@ -20,21 +19,19 @@ var maxProfit = function(prices) {
         let profit = 0; 
         profit = prices[right] - prices[left];
         
-        if (profit > maxProfit) {
-            maxProfit = profit;
+        if (profit > 0) {
+            maxProfit += profit;
+            left = right
         }
 
         if (profit < 0) {
 
-            // negative profit means I found a lower value so I want that 
-            // to set that value to left as I'm looking for the max profit
             left = right
 
         }
         right++
 
         }
-    
-    return maxProfit
 
+    return maxProfit
 };
