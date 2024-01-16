@@ -40,7 +40,7 @@ var canCompleteCircuit = function(gas, cost) {
 // -
 // cost = [3,4,5,1,2]
 // diff = [-2,-2,-2,3,3]
-// The difference between amount of gas and cost shows that in indexes 0, 1, 2 the circuite cannot be completed.
+// The difference between amount of gas and cost shows that in indexes 0, 1, 2 the circuit cannot be completed.
 // the condition which guarantees the solution is that sum(gas) < sum(cost).
 
 // starting at index 3 
