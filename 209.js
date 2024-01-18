@@ -14,7 +14,7 @@ var minSubArrayLen = function(target, nums) {
     result = 0;
 
     while (right<nums.length) {
-        debugger;
+        // debugger;
 
         sum += nums[right];
 
