@@ -83,3 +83,5 @@ Feel free to reach out if you come up with a better solution in terms of time or
 | \- | 72 | Leetcode 122  | Best Time to Buy and Sell Stock II                                                                              | array  | Medium | JS | TC: O(n)<br>SC: O(1)       |
 | \- | 73 | Leetcode 274  | H-Index                                                                                                         | array  | Medium | JS | TC: O(nlogn)<br>SC: O(1)   |
 | \- | 74 | Leetcode 134  | Gas Station                                                                                                     | array  | Medium | JS | TC: O(n)<br>SC: O(1)       |
+| Pinterest | 75 | Leetcode 811 | Subdomain Visit Count | array/ string | Medium | JS | TC: O(n\*m)<br>SC: O(u) (if there are u unique subdomains) |
+| \-        | 76 | Leetcode 12  | Integer to Roman      | array/ string | Medium | JS | TC: O(13 \* max_num)<br>SC: O(1)                           |
