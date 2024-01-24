@@ -85,3 +85,6 @@ Feel free to reach out if you come up with a better solution in terms of time or
 | \- | 74 | Leetcode 134  | Gas Station                                                                                                     | array  | Medium | JS | TC: O(n)<br>SC: O(1)       |
 | Pinterest | 75 | Leetcode 811 | Subdomain Visit Count | array/ string | Medium | JS | TC: O(n\*m)<br>SC: O(u) (if there are u unique subdomains) |
 | \-        | 76 | Leetcode 12  | Integer to Roman      | array/ string | Medium | JS | TC: O(13 \* max_num)<br>SC: O(1)                           |
+| Pinterest | 77 | Leetcode 718  | Maximum Length of Repeated Subarray | array | Medium | JS | TC: O(m \* n)<br>SC: O(m \* n)    |
+| Google    | 78 | Leetcode 300  | Longest Increasing Subsequence      | array | Medium | JS | TC: O(n^2)<br>SC: O(n)            |
+| Pinterest | 79 | Leetcode 1062 | Longest Repeating Substring         | array | Medium | JS | TC: O(log n \* n)<br>SC: O(n)<br> |
