@@ -5,6 +5,31 @@
  * @param {number[]} nums
  * @return {number}
  */
+
+var findLengthOfLCIS = function(nums) {
+    
+    let longest = 1;
+    let subLength = 1;
+
+    for (let i=0; i<nums.length; i++) {
+        
+        if (nums[i]<nums[i+1]) {
+            subLength++
+        } else {
+            subLength = 1
+        }
+        
+        longest = Math.max(subLength, longest)
+
+    }
+
+    return longest
+
+};
+
+
+// old solution
+/* 
 var findLengthOfLCIS = function(nums) {
 
     if (nums.length === 1) return 1
@@ -36,3 +61,5 @@ var findLengthOfLCIS = function(nums) {
     return maxLen
     
 };
+*
+*/

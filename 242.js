@@ -38,33 +38,39 @@ var isAnagram = function(s, t) {
       
   };
   
-  // The code aboce is the solution to the follow up question (unicode)
+  // The code above is the solution to the follow up question (unicode)
   
   // first problem:
-  // var isAnagram = function(s, t) {
   
-  //   if (s.length !== t.length) {
-  //     return false
-  //   }
-  
-  //   let sArr = [...s]
-  //   let tArr = [...t]
-  //   let sLetters = {}
-  //   let tLetters = {}
-  
-  //   sArr.forEach((char) => {
-  //     sLetters[char] = sLetters[char] ? sLetters[char] + 1 : 1  
-  //   })
-  
-  //   tArr.forEach((char) => {
-  //     tLetters[char] = tLetters[char] ? tLetters[char] + 1 : 1  
-  //   })
-  
-  //   for (let c of t) {
-  //     console.log(c)
-  //       if (sLetters[c] !== tLetters[c]) return false
-  //   }
-  
-  //   return true
-      
-  // };  
+  /*
+  var isAnagram = function(s, t) {
+    
+    if (s.length !== t.length) {
+        return false
+    }
+
+    let freqS = calculateFreq(s)
+    let freqT = calculateFreq(t)
+
+    for (let char of t) {
+
+        if (freqS[char] !== freqT[char]) {
+            return false
+        }
+    }
+
+    return true
+
+};
+
+function calculateFreq(str) {
+    
+    let freq = {}
+    for (let char of str) {
+        freq[char] = freq[char] ? freq[char] + 1 : 1
+    }
+
+    return freq
+
+}
+*/
