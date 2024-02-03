@@ -6,8 +6,7 @@ Welcome to LeetLab, my personal repository featuring solutions to over 50 LeetCo
 Feel free to reach out if you come up with a better solution in terms of time or space complexity!
 
 ## Table of Contents
- Outer pipes  Cell padding 
-No sorting
+
 | Company   | ID | Platform      | Problem                                                                                                                  | Type                  | Level  | Language | time/ space<br>complexity                                                                                                  | Tag                                     |
 | --------- | -- | ------------- | ------------------------------------------------------------------------------------------------------------------------ | --------------------- | ------ | -------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- |
 | Meta      | 1  | Leetcode 953  | Verifying an Alien Dictionary                                                                                            | hashmap               | Easy   | JS       | TC: O(n\*m)<br>SC: O(1)                                                                                                    |                                         |
