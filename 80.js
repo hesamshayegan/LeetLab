@@ -4,19 +4,50 @@
 /**
  * @param {number[]} nums
  * @return {number}
- */
+*/
+var removeDuplicates = function(nums) {
 
-const removeDuplicates = (nums) => {
-    let j = 2;
-  
-    for (let i = 2; i < nums.length; i++) {
-      if (nums[i] !== nums[j - 2]) {
-        nums[j++] = nums[i];
+  let left = 0;
+  let right = 0;
+
+  while (right<nums.length) {
+      
+      count = 1;
+
+      // while the number is equal to the next one 
+      // right + 1 < nums.length ensures we reamin in bounds.
+      // it could have 1,2,3,... values
+      while (nums[right] === nums[right+1] & right + 1 < nums.length) {
+
+          count++;
+          right++;
+
       }
-    }
+      // I want to make only a copy of 2 of the value above
+      // Math.min(2, count) beacuse num can be either one or two. so I take the min
+      for (let i=0; i<Math.min(2, count); i++) {
+          nums[left] = nums[right]
+          left++
+      }
+
+      right++
+  
+  }
+  
+  return left
+};
+
+// const removeDuplicates = (nums) => {
+//     let j = 2;
+  
+//     for (let i = 2; i < nums.length; i++) {
+//       if (nums[i] !== nums[j - 2]) {
+//         nums[j++] = nums[i];
+//       }
+//     }
     
-    return j;
-  };
+//     return j;
+//   };
   
   // 1. Initialize a variable j to 2. This will keep track of the index where the next non-duplicate element should be placed.
   

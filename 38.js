@@ -4,37 +4,71 @@
  * @param {number} n
  * @return {string}
  */
+
 var countAndSay = function(n) {
-    
-    // Initialize the sequence with the first term
-    let str = '1';
-    
-    // Iterate to generate the nth term in the sequence
-    for (let i=1; i<n; i++) {
-        debugger;
-        // Split the current term into an array of individual digits
-        let strArray = str.split('');
-        str = ''; // Reset the current term
 
-        let count = 1;
-        
-        // Loop through the digits of the current term
-        for (let j=0; j < strArray.length; j++) {
+    let str = "1";
 
-            // Check if the next digit is different
-            if(strArray[j] !== strArray[j+1]) {
-                // If different, append the count and digit to the new term
-                str += count + strArray[j];
-                count = 1; // Reset count for the new digit
+    while (n>1) {
+
+        let newStr = "";
+        let count = 0;
+        let say = str[0];
+
+        for (let i=0; i<str.length; i++) {
+
+            if (str[i] === say) {
+                count++
             } else {
-                count++; // Increment count for consecutive digits
+                newStr += count + say
+                count = 1;
+                say = str[i]
             }
         }
+        
+        str = newStr + count + say
+
+        n--
+
     }
 
-    return str; // Return the nth term in the "Count and Say" sequence
+    return str
+
 
 };
+
+
+// var countAndSay = function(n) {
+    
+//     // Initialize the sequence with the first term
+//     let str = '1';
+    
+//     // Iterate to generate the nth term in the sequence
+//     for (let i=1; i<n; i++) {
+//         debugger;
+//         // Split the current term into an array of individual digits
+//         let strArray = str.split('');
+//         str = ''; // Reset the current term
+
+//         let count = 1;
+        
+//         // Loop through the digits of the current term
+//         for (let j=0; j < strArray.length; j++) {
+
+//             // Check if the next digit is different
+//             if(strArray[j] !== strArray[j+1]) {
+//                 // If different, append the count and digit to the new term
+//                 str += count + strArray[j];
+//                 count = 1; // Reset count for the new digit
+//             } else {
+//                 count++; // Increment count for consecutive digits
+//             }
+//         }
+//     }
+
+//     return str; // Return the nth term in the "Count and Say" sequence
+
+// };
 
 
 
