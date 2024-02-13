@@ -36,3 +36,32 @@ var twoSum = function(nums, target) {
 // i = 1 -> value = 2, complement = 6 - 2 = 4, map[4] does not exist => map = {3: 0, 2: 1}
 // i = 2 -> value = 4, complement = 6 - 4 = 2, map[2] exists THEN  
 // the condition of map[complementPair] !== undefined is satisfied => retutn [1, 2]
+
+
+// using Map
+
+/*
+
+var twoSum = function(nums, target) {
+
+      
+    let complement = 0;
+    let map = new Map()
+
+
+    for (let i=0; i<nums.length; i++) {
+
+        complement = target - nums[i]
+        
+        if (map.has(nums[i])) {
+            let idx = map.get(nums[i])
+            return [idx, i]
+
+        } else {
+            map.set(complement, i)
+        }
+    }
+
+};
+
+*/
