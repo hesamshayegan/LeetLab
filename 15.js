@@ -13,7 +13,8 @@ var threeSum = function(nums) {
     for (let i = 0; i < nums.length; i++) {
 
         // skip the value if it's equal to the previous
-        // check i > 0 cuz otherwise 0-1 = -1! 
+        // check i > 0 cuz otherwise 0-1 = -1!
+        // the continue statement skips the current iteration of the loop and moves to the next iteration
         if (i > 0 && nums[i] === nums[i-1]) continue
 
         // i+1 -> to prevent the same pair but in a reversed order * 
