@@ -21,3 +21,9 @@ var stringMatching = function(words) {
     return [...substrings]
 
 };
+
+
+// one-line solution
+
+var stringMatching = words => 
+    words.filter(sub => words.some(word => word != sub && word.includes(sub)));
