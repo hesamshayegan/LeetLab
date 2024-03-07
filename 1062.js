@@ -32,6 +32,8 @@ function search(mid, n, s) {
     let seen = new Set();
     let subStr;
     
+    // the loop should stop before n - mid + 1, as n - mid is the last valid starting index.
+    // For the upper bound, I can't use start + mid + 1 instead of n - mid + 1 cuz start is changing!
     for (let start = 0; start < n - mid + 1; start++) {
         // debugger;
         subStr = s.slice(start, start + mid);
@@ -59,7 +61,7 @@ function search(mid, n, s) {
 
 // 2. While low is less than or equal to high, perform binary search.
 
-// 3. For each mid-point, check if there exists a repeating substring of length at least mid in the string using rolling hash.
+// 3. For each mid-point, check, using a helper function, if there exists a repeating substring of length at least mid in the string using a hashSet .
 
 // 4. If a repeating substring is found, update the low bound to mid + 1, else update the high bound to mid - 1.
 
