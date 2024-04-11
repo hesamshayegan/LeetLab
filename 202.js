@@ -7,6 +7,7 @@
  * @return {boolean}
  */
 
+// Happy number function
 var isHappy = function(n) {
     let sum = 0;
     // use a set and store the results I have calculated.
