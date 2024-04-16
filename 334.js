@@ -5,7 +5,7 @@
  * @return {boolean}
 */
 
-// finds the increasing triplets from the input array
+// finds the increasing triplets from the input
 var increasingTriplet = function(nums) {
 
     let firstNumber = Infinity;
