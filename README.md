@@ -134,4 +134,6 @@ Feel free to reach out if you come up with a better solution in terms of time or
 |-        |123|Leetcode 1657 |Determine if Two Strings Are Close                        |string       |Medium|JS        |TC: O(n) SC: O(1)                                                                           |sorting                 |
 |-        |124|Leetcode 334  |Increasing Triplet Subsequence                            |array        |Medium|JS        |TC: O(n) SC: O(1)                                                                           |greeady                 |
 |-        |125|Leetcode 11   |Container With Most Water                                 |array        |Medium|JS        |TC: O(n) SC: O(1)                                                                           |two_pointers, greedy    |
-|-        |126|Leetcode 2215   |Find the Difference of Two Arrays                                 |hashmaps        |Easy|PY        |TC: O(n+m) SC: O(n+m)  
+|-        |126|Leetcode 2215   |Find the Difference of Two Arrays                                 |hashmaps        |Easy|PY        |TC: O(n+m) SC: O(n+m)
+|-        |127|Leetcode 1071   |Greatest Common Divisor of Strings                                |prefix        |Easy|PY        |TC: O(len1×len2) SC: O(len1+len2)
+|-        |128|Leetcode 1207   |Unique Number of Occurrences                                |hashmap        |Easy|PY        |TC: O(n) SC: O(n)
