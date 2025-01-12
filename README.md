@@ -137,3 +137,4 @@ Feel free to reach out if you come up with a better solution in terms of time or
 |-        |126|Leetcode 2215   |Find the Difference of Two Arrays                                 |hashmaps        |Easy|PY        |TC: O(n+m) SC: O(n+m)
 |-        |127|Leetcode 1071   |Greatest Common Divisor of Strings                                |prefix        |Easy|PY        |TC: O(len1×len2) SC: O(len1+len2)
 |-        |128|Leetcode 1207   |Unique Number of Occurrences                                |hashmap        |Easy|PY        |TC: O(n) SC: O(n)
+|-        |129|Leetcode 605   |Can Place Flowers                                |array        |Easy/ Medium |PY        |TC: O(n) SC: O(1)
