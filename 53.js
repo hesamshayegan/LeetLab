@@ -33,5 +33,5 @@ var maxSubArray = function(nums) {
 // ex. [-2,1,-3,4,-1,2,1,-5,4]
 // -2 + 1 = -1 -> -1 -3 = -4 -> -4 + 4 = 0
 // so until -4, I skip the elements that don't contribute. by setting currSum = 0
-// 4 -1 = 3 -> 3 +2 = 5 -> 5 + 1 =6 -> 6-5 = 1 
+// 4 - 1 = 3 -> 3 +2 = 5 -> 5 + 1 =6 -> 6-5 = 1 
 // using Math.max I define the maxSum

@@ -138,3 +138,4 @@ Feel free to reach out if you come up with a better solution in terms of time or
 |-        |127|Leetcode 1071   |Greatest Common Divisor of Strings                                |prefix        |Easy|PY        |TC: O(len1×len2) SC: O(len1+len2)
 |-        |128|Leetcode 1207   |Unique Number of Occurrences                                |hashmap        |Easy|PY        |TC: O(n) SC: O(n)
 |-        |129|Leetcode 605   |Can Place Flowers                                |array        |Easy/ Medium |PY        |TC: O(n) SC: O(1)
+|-        |130|Leetcode 1431   |Kids With the Greatest Number of Candies                                |array        |Easy |PY        |TC: O(n) SC: O(n)
